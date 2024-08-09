@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import PlaceholderHero from '../assets/abstract.jpg'
+import PlaceholderHero from '../assets/abstract.png';
 
 const fullName = 'Isana Pearson';
 const personalQuote = 'Faith Not Fear';

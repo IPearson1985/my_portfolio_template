@@ -20,8 +20,8 @@ const About = () => {
           <img className='headshot' src={headshot} alt="mypersonalheadshot" />
         </section>
         <section className='description-container'>
-          <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} working for, {company} on {mainDuty} located in, {jobLocation}</h2>
-          <p>{briefJobDescription}</p>
+          <h2 className='text-xl font-medium'>I&apos;m {firstName}, {jobLocation}</h2>
+          
           <p>{careerObjective}</p>
           <p>{personalLife}</p>
           <p className='mb-4'>If you are interested in my work, reach out to me!</p>
