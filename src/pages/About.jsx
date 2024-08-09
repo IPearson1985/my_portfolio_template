@@ -1,15 +1,15 @@
 import { NavLink } from 'react-router-dom';
-import PlaceholderImage from '../assets/placeholder_image.png';
+import headshot from '../assets/headshot.png';
 
 // Replace these variables with your information
-const firstName = 'Replace with your first name';
-const jobTitle = 'Replace with your title';
-const company = 'Replace with your company name';
-const mainDuty = 'Replace with your main duty';
-const jobLocation = 'Replace with your job location';
-const briefJobDescription = 'Replace with a brief description of your job';
-const careerObjective = 'Replace with your career objective';
-const personalLife = 'Replace with a brief description of your personal life';
+const firstName = 'Isana';
+const jobTitle = 'Software Developer';
+
+
+const jobLocation = 'New Jersey & NYC';
+
+const careerObjective = 'To obtain a challenging and growth-oriented position as a Stack Developer where I can leverage my foundational knowledge in front-end and back-end technologies, enhance my coding skills, and contribute to the development of innovative software solutions. Eager to collaborate with experienced professionals and continuously learn new technologies to become a proficient full-stack developer';
+const personalLife = 'I love being a mom, traveling, and learning new things.';
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
       <section className='about-content-container'>
         <section className='image-container'>
           {/* Replace this placeholder image and alt tag with a professional headshot */}
-          <img className='headshot' src={PlaceholderImage} alt="placeholder image" />
+          <img className='headshot' src={headshot} alt="mypersonalheadshot" />
         </section>
         <section className='description-container'>
           <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} working for, {company} on {mainDuty} located in, {jobLocation}</h2>

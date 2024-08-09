@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
+import PlaceholderHero from '../assets/abstract.jpg'
 
-const fullName = 'Replace with your name';
-const personalQuote = 'Replace with your personal quote';
-const professionalSummary = 'Replace with your professional summary';
+const fullName = 'Isana Pearson';
+const personalQuote = 'Faith Not Fear';
+const professionalSummary = 'Enthusiastic and detail-oriented beginner Stack Developer with a solid understanding of front-end and back-end development principles. Proficient in HTML, CSS, JavaScript, and foundational knowledge of server-side technologies like Node.js and databases such as MongoDB and SQL. Adept at problem-solving, learning new technologies quickly, and passionate about building user-friendly, responsive web applications. Eager to contribute to dynamic development teams and grow within the field through continuous learning and hands-on experience.';
 
 const Home = () => {
   return (

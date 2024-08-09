@@ -1,4 +1,4 @@
-import { FaDownload } from "react-icons/fa";
+import { FaDownload } from "IP-Resume.docx";
 
 const DownloadResume = () => {
   return (
